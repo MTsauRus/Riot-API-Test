@@ -1,14 +1,12 @@
 package com.MTsauRus.lol.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 import java.util.Map;
 
 @Getter @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @ToString
 public class ChampionDataDTO {
     private Map<String, ChampionDTO> data;
